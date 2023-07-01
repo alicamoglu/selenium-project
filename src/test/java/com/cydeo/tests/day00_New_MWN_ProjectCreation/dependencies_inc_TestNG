@@ -1,0 +1,114 @@
+----------------------------------------------------part - 1----------------------------------------------------
+google search mvnrepository
+https://mvnrepository.com search selenium webdriver
+open 2 Selenium Java
+open the last version
+copy from maven tab in textbox
+passt like below first part
+
+ <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.11.0</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.4.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.8.0</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+
+------------------------------------------------- part - 2--------------------------------------------------------------
+google search mvnrepository
+https://mvnrepository.com search webdrivermanager
+open io.github.bonigarcia
+open last version
+copy from maven tab in textbox
+passt like below second part
+
+ <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.11.0</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.4.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.8.0</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+--------------------------------------------part 3 testNG----------------------------------------------------------------------------
+dependency for TestNG mvnrepository sitesinden alınır(https://mvnrepository.com/) ve yine pom.xml file içine eklenir
+google search mvnrepository
+https://mvnrepository.com search TestNG
+open TestNG
+open last version
+copy from maven tab in textbox like this
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+    <scope>test</scope>
+</dependency>
+
+ <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.11.0</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.4.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.8.0</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+paste like below third part don't mix last 2 part
+
+
+
+make refresh to download the dependency
